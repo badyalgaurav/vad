@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { interpolateInferno } from "https://cdn.skypack.dev/d3-scale-chromatic@3"
+// import { interpolateInferno } from "https://cdn.skypack.dev/d3-scale-chromatic@3"
 const App=()=>{
     async function test(){
 //declaring VAD
@@ -9,8 +9,8 @@ try {
       minSpeechFrames: 5,
       preSpeechPadFrames: 10,
       onFrameProcessed: (probs) => {
-        const indicatorColor = interpolateInferno(probs.isSpeech / 2)
-        document.body.style.setProperty("--indicator-color", indicatorColor)
+        // const indicatorColor = interpolateInferno(probs.isSpeech / 2)
+        // document.body.style.setProperty("--indicator-color", indicatorColor)
       },
       onSpeechEnd: (arr) => {
         const wavBuffer = window.vad.utils.encodeWAV(arr)
@@ -38,8 +38,8 @@ try {
         document.getElementById(
           "indicator"
         ).innerHTML = `VAD is <span style="color:red">stopped</span>`
-        const indicatorColor = interpolateInferno(0)
-        document.body.style.setProperty("--indicator-color", indicatorColor)
+        // const indicatorColor = interpolateInferno(0)
+        // document.body.style.setProperty("--indicator-color", indicatorColor)
       }
     }
     window.toggleVAD()
