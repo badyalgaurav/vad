@@ -44,7 +44,7 @@ try {
     }
     window.toggleVAD()
     document.getElementById("toggle_vad_button").disabled = false
-    // document.getElementById("toggle_vad_button").addEventListener("click",window.toggleVAD);
+    document.getElementById("toggle_vad_button").addEventListener("click",window.toggleVAD); 
     document.getElementById("indicator").textContent = "VAD is ready. Click on start VAD"
   } catch (e) {
     console.error("Failed:", e)
