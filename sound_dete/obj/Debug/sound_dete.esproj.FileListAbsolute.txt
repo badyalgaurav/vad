@@ -1,0 +1,4 @@
+D:\DDrive\Projects\sound_dete\sound_dete\obj\Debug\sound_dete.esproj.SuggestedBindingRedirects.cache
+D:\DDrive\Projects\sound_dete\sound_dete\obj\Debug\sound_dete.esproj.CoreCompileInputs.cache
+D:\DDrive\Projects\sound_dete\sound_dete\vad\sound_dete\obj\Debug\sound_dete.esproj.SuggestedBindingRedirects.cache
+D:\DDrive\Projects\sound_dete\sound_dete\vad\sound_dete\obj\Debug\sound_dete.esproj.CoreCompileInputs.cache
